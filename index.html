@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <header>
+
+        <h1 class="logo" id="logo1">Logo</h1>
+
+        <nav class="navigation">
+            <a href="#" >Home</a>
+            <a href="#" >About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+
+            <button class="btnLogin_popup">Login </button>
+            
+        </nav>
+
+    </header>
+
+
+    <!-- Login form -->
+    <div class="wrapper">
+
+            <span class="content icon_close"><p class="creat_content_1"></p><p class="creat_content_2"></p></span>
+
+        <!-- <span class="icon_close"><i class="fa-solid fa-xmark"><a href="#"></a></i></span> -->
+
+
+        <!-- login box -->
+        <div class="form-box login">
+            <h2>Login</h2>
+            
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="#">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <input type="password" required>
+                    <label for="#">Password</label>
+                </div>
+
+                <div class="remember_forget">
+                    <label><input type="checkbox">Remember Me</label>
+                <a href="#"> Forget Password</a>
+                </div>
+                
+                <div class="btn_design">            
+                <span class="spn_rmv"></span> <span class="spn_rmv"></span>
+                 <span class="spn_rmv"></span> <span class="spn_rmv"></span>
+                    <button type="submit" class="btn">Login</button>
+                </div>
+
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register_link">Register</a></p>
+                </div>
+
+            </form>
+
+        </div>
+
+
+        <!-- Registration form -->
+        
+        <div class="form-box Register">
+            <h2>Register</h2>
+        
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" required>
+                    <label for="#">Username</label>
+                </div>
+        
+                <div class="input-box">
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="#">Email</label>
+                </div>
+        
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <input type="password" required>
+                    <label for="#">Password</label>
+                </div>
+        
+                <div class="remember_forget">
+                    <label><input type="checkbox">I agree to the <a href="#" style="text-decoration: underline;">terms & condition</a> </label>
+                </div>
+
+                <div class="btn_design">            
+                    <span class="spn_rmv"></span> <span class="spn_rmv"></span>
+                    <span class="spn_rmv"></span> <span class="spn_rmv"></span>
+                    <button type="submit" class="btn">Register</button>
+                    </div>
+        
+        
+                <div class="login-register">
+                    <p>I have an account? <a href="#" class="login_link">Login</a></p>
+                </div>
+        
+            </form>
+        
+        </div>
+
+    </div>
+
+
+
+
+
+     <script src="index.js"></script>
+</body>
+
+</html>
